@@ -18,8 +18,10 @@ namespace Sumar.Controllers
         }
 
         [HttpPost]
-        public int Add2([FromHeader]int a, [FromHeader]int b) //Creamos este método público donde también creamos los elementos
+        public int Add2([FromHeader] int a, [FromHeader] int b) //Creamos este método público donde también creamos los elementos
         {
-            return a + b; 
+            return a + b;
+        }
     }
 }
+
