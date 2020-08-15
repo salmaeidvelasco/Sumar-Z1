@@ -27,5 +27,6 @@ namespace Sumar.Controllers
 /*Lista de acceso rápido
  ctrl+r --> para cambiar el nombre de un modelo o clase
 prop tab tab --> para crear directamente el get y set
+ctrl+. (punto) --> es para cuando alguna palabra me sale en rojo, esto me va a decir que librería debo incluir 
 */
 
