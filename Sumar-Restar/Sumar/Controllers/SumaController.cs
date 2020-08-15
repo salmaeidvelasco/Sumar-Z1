@@ -20,6 +20,7 @@ namespace Sumar.Controllers
         }
 
         [HttpPost]
+        [Route("Add")]
         public int Add2([FromHeader] int a, [FromHeader] int b) 
             // Fromheader es porque el valor no va a ser como parámetro,el Post no se ve lo que hace en el url osea el a y b
         {
@@ -32,7 +33,7 @@ namespace Sumar.Controllers
             return a * b;
         }
         [HttpPost]
-        [Route("Multiply")]
+        [Route("Multiply")]//Es la tercera ruta para que diferenciemos al momento de hacerlo correr 
         public int Mul2([FromHeader] int a, [FromHeader] int b)
         {
             return a * b;
