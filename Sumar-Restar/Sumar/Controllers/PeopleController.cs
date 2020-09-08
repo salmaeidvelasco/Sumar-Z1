@@ -15,12 +15,12 @@ namespace Sumar.Controllers
         [HttpGet]
         public Person Listar() //Creamos el objeto person 
         {
-            Person person = new Person()// Obejto person de Person
+            Person person = new Person()// Obejto person de Person, lo declara como apuntador
             {
                 PersonId = 1, //No ponemos punto y coma porque sino deberíamos poner PersonId.Get()
-                Name = "Salma Eid"
+                Name = "Salma Eid"//Ambos declarados en la clase con get y set
             };
-            return person;
+            return person;//retornamos PersonId y Name
         }
     }
 }
